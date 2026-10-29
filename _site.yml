@@ -1,0 +1,19 @@
+name: "joanna-website"
+output_dir: "."
+navbar:
+  title: "Joanna Chuang"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Resume"
+      href: resume.html
+  right:
+    - icon: fa-github
+      href: https://github.com/tc3609
+    - icon: fa-envelope
+      href: mailto:hubearmy@gmail.com
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/tzu-i-chuang-985b71264/
+output:
+  html_document:
+    theme: flatly

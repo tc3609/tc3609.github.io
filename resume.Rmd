@@ -1,0 +1,70 @@
+
+---
+title: "Resume"
+---
+
+## Education
+
+### Columbia University
+**M.S. in Biostatistics | September 2026 – June 2028**
+
+Mailman School of Public Health
+
+Relevant Coursework: Data Science, Biostatistical Methods, Probability, Principles of Epidemiology
+
+### University of California, Davis
+**B.A. in Cognitive Science**
+
+Relevant Coursework: Artificial Intelligence, Computational Linguistics, Data Structures, Algorithm Design & Analysis, Cognitive Neuroscience
+
+---
+
+## Professional & Research Experience
+
+### Fu Jen Catholic University - Department of Nutrition Science
+
+**New Taipei, Taiwan**
+
+**Research Assistant / Supervisor: Prof. Ming-Hsien Chiang** | Aug. 2025 - Jun. 2026
+
+- Predicted B-cell and T-cell epitopes using multiple bioinformatics platforms such as GraphBepi, DiscoTope, NetMHCpan.
+- Integrated overlapping epitopes for multi-epitope mRNA-LNP vaccine design with Python.
+- Supported wet-lab experiments (cell culture) and preclinical workflow preparation.
+
+### Academia Sinica - Institute of Biomedical Sciences
+
+**Taipei, Taiwan**
+
+**Research Assistant / Supervisor: Prof. Albert (A.-F.) Lin** | Jul. 2025 - Jun. 2026
+
+- Analyzed PBMC 3k scRNA-seq using Seurat (QC, PCA/UMAP, clustering, DEGs).
+- Annotated immune cell subsets and visualized markers using FeaturePlot and heatmaps.
+- Conducted RNA-ADT multimodal analysis with CITE-seq and WNN framework.
+
+### Child Development & Psychology Research at UC Davis
+
+**Davis, CA**
+
+**Research Assistant / Supervisor: Prof. Yuko Munakata** | Jul. 2024 - May 2025
+
+- Synthesized papers and questionnaires into Qualtrics to support experimental design; conducted experiments with PsychoPy and engaged participants in data collection.
+- Analyzed experimental data in R using statistical methods including t-tests and regression analysis.
+
+### eCloudvalley Digital Technology Co., Ltd.
+
+**Taipei, Taiwan**
+
+**UI/UX & AI Project Intern** | Jul. 2024 - Oct. 2024
+
+- Analyzed and designed data visualization dashboards in Figma and Vue.js, organizing performance, cost, security, operations, and sustainability into clear graphs and tables.
+- Integrated OpenAI models into the workflow while preventing direct model access to PgAdmin to strengthen database security.
+- Learned AWS fundamentals independently and used DynamoDB and SQL to establish a database.
+- Final Work: https://shorturl.at/aTmCX.
+
+## Skills
+
+- **Programming & Data Analysis:** Python, R, SPSS, SQL, A/B Testing
+- **Bioinformatics & Research Tools:** FACS, Qualtrics, BLAST
+- **Visualization & Design:** Tableau, Matplotlib, Figma, Microsoft Excel (Pivot Tables, VBA)
+- **Web & Cloud:** HTML, CSS, JavaScript, Vue3, AWS (EC2, S3, DynamoDB), PgAdmin
+- **Soft Skills:** Presentation, Teamwork, Communication, Working with Children, Project Management

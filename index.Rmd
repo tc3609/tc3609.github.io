@@ -1,0 +1,26 @@
+
+---
+title: "Home"
+---
+
+# Hi, I'm Joanna!
+
+I'm Tzu-I (Joanna) Chuang, currently pursuing a Master of Science in Biostatistics at Columbia University's Mailman School of Public Health.
+
+I graduated from the University of California, Davis, with a Bachelor's degree in Cognitive Science, specializing in the programming track.
+
+My interests lie at the intersection of data science, technology, and healthcare. I enjoy applying statistical and computational methods to solve real-world problems and generate meaningful insights.
+
+## My Background
+
+My academic and professional experience includes:
+
+- **Data Science & Biostatistics:** Statistical analysis, data visualization, and programming using R and Python.
+- **Computational Biology:** Single-cell RNA sequencing and CITE-seq data analysis at Academia Sinica.
+- **Technology & Consulting:** UI/UX development, cloud-based data platforms, and client requirement analysis at eCloudvalley.
+
+## Interests
+
+I'm particularly interested in opportunities involving data analytics, data science, and healthcare technology.
+
+Feel free to explore my resume or connect with me through GitHub and LinkedIn!
