@@ -1,0 +1,38 @@
+
+---
+title: "Projects"
+---
+
+# Data Science Projects
+
+A collection of projects completed as part of my Data Science coursework at Columbia University. These projects demonstrate my experience in data cleaning, transformation, exploratory data analysis, and visualization using R.
+
+---
+
+## Exploratory Data Analysis & Visualization
+
+**P8105 Homework 1 | R, ggplot2, tidyverse**
+
+Explored the Palmer Penguins dataset using descriptive statistics and scatterplots to examine relationships between physical characteristics across penguin species. Practiced data frame manipulation, variable types, and numerical summaries.
+
+[View GitHub Repository](https://github.com/tc3609/p8105_hw1_tc3609)
+
+---
+
+## Data Cleaning, Integration & Analysis
+
+**P8105 Homework 2 | R, tidyverse, dplyr, readxl**
+
+Cleaned and integrated multiple environmental datasets from the Trash Wheel project, addressing inconsistent formats and variable types. Applied data transformation and aggregation techniques to investigate waste collection patterns. The assignment also involved NYC subway and weather datasets.
+
+[View GitHub Repository](https://github.com/tc3609/p8105_hw2_tc3609)
+
+---
+
+## Weather & Urban Mobility Data Analysis
+
+**P8105 Homework 3 | R, tidyverse, ggplot2**
+
+Analyzed NYC weather records and Citi Bike trip data to identify seasonal patterns and changes over time. Cleaned date and weather variables, summarized temperature and precipitation patterns, and explored differences in bike trip duration across years.
+
+[View GitHub Repository](https://github.com/tc3609/p8105_hw3_tc3609)
