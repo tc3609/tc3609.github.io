@@ -36,7 +36,12 @@ monthly_weather =
     avg_prcp = mean(prcp, na.rm = TRUE),
     .groups = "drop"
   ) |>
-  mutate(month_label = month.abb[month])
+  mutate(
+  month_label = factor(
+    month.abb[month],
+    levels = month.abb
+  )
+)
 
 set.seed(8105)
 
@@ -64,9 +69,27 @@ plot_ly(
     name = "Minimum temperature"
   ) |>
   layout(
-    xaxis = list(title = "Month"),
-    yaxis = list(title = "Temperature (°C)"),
-    legend = list(orientation = "h")
+    xaxis = list(
+      title = list(text = "Month", standoff = 15),
+      categoryorder = "array",
+      categoryarray = month.abb
+    ),
+    yaxis = list(
+      title = "Temperature (°C)"
+    ),
+    legend = list(
+      orientation = "h",
+      x = 0.5,
+      xanchor = "center",
+      y = 1.15,
+      yanchor = "bottom"
+    ),
+    margin = list(
+      b = 70,
+      l = 80,
+      r = 30,
+      t = 90
+    )
   )
 ```
 
@@ -80,8 +103,20 @@ plot_ly(
   type = "bar"
 ) |>
   layout(
-    xaxis = list(title = "Month"),
-    yaxis = list(title = "Average daily precipitation (mm)")
+    xaxis = list(
+      title = "Month",
+      categoryorder = "array",
+      categoryarray = month.abb
+    ),
+    yaxis = list(
+      title = "Average daily precipitation (mm)"
+    ),
+    margin = list(
+      b = 80,
+      l = 90,
+      r = 30,
+      t = 30
+    )
   )
 ```
 
