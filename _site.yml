@@ -9,6 +9,8 @@ navbar:
       href: resume.html
     - text: "Projects"
       href: projects.html
+    - text: "Dashboard"
+      href: dashboard.html
   right:
     - icon: fa-github
       href: https://github.com/tc3609

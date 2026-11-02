@@ -1,0 +1,129 @@
+
+---
+title: "New York Weather Dashboard"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: scroll
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(plotly)
+library(flexdashboard)
+library(p8105.datasets)
+
+data("ny_noaa", package = "p8105.datasets")
+
+weather_data =
+  ny_noaa |>
+  mutate(
+    date = as.Date(date),
+    year = lubridate::year(date),
+    month = lubridate::month(date),
+    tmax = as.numeric(tmax) / 10,
+    tmin = as.numeric(tmin) / 10,
+    prcp = as.numeric(prcp) / 10
+  ) |>
+  filter(year >= 2005, year <= 2010)
+
+monthly_weather =
+  weather_data |>
+  group_by(month) |>
+  summarize(
+    avg_tmax = mean(tmax, na.rm = TRUE),
+    avg_tmin = mean(tmin, na.rm = TRUE),
+    avg_prcp = mean(prcp, na.rm = TRUE),
+    .groups = "drop"
+  ) |>
+  mutate(month_label = month.abb[month])
+
+set.seed(8105)
+
+temp_sample =
+  weather_data |>
+  filter(!is.na(tmax), !is.na(tmin)) |>
+  slice_sample(n = 1500)
+```
+
+## Row {data-height=450}
+
+### Average Monthly Temperature
+
+```{r}
+plot_ly(
+  data = monthly_weather,
+  x = ~month_label
+) |>
+  add_lines(
+    y = ~avg_tmax,
+    name = "Maximum temperature"
+  ) |>
+  add_lines(
+    y = ~avg_tmin,
+    name = "Minimum temperature"
+  ) |>
+  layout(
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Temperature (°C)"),
+    legend = list(orientation = "h")
+  )
+```
+
+### Average Daily Precipitation by Month
+
+```{r}
+plot_ly(
+  data = monthly_weather,
+  x = ~month_label,
+  y = ~avg_prcp,
+  type = "bar"
+) |>
+  layout(
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Average daily precipitation (mm)")
+  )
+```
+
+## Row {data-height=450}
+
+### Maximum vs. Minimum Temperature
+
+```{r}
+plot_ly(
+  data = temp_sample,
+  x = ~tmin,
+  y = ~tmax,
+  type = "scatter",
+  mode = "markers",
+  marker = list(opacity = 0.4)
+) |>
+  layout(
+    xaxis = list(title = "Minimum temperature (°C)"),
+    yaxis = list(title = "Maximum temperature (°C)")
+  )
+```
+
+### About the Data
+
+This dashboard explores weather patterns across New York State
+using the NY NOAA dataset from the `p8105.datasets` package.
+
+The analysis focuses on observations from 2005 to 2010.
+
+The visualizations include:
+
+- Monthly averages of maximum and minimum temperatures.
+- Average reported daily precipitation by calendar month.
+- The relationship between daily maximum and minimum temperatures.
+
+Temperature and precipitation values were converted into
+degrees Celsius and millimeters, respectively.
+
+Missing observations were excluded from the relevant calculations.
+The scatterplot uses a reproducible random sample of 1,500
+complete temperature observations to improve performance.
+
+Because reporting varies across weather stations, the monthly
+averages describe available records rather than an evenly
+weighted statewide climate estimate.

@@ -24,3 +24,22 @@ My academic and professional experience includes:
 I'm particularly interested in opportunities involving data analytics, data science, and healthcare technology.
 
 Feel free to explore my resume or connect with me through GitHub and LinkedIn!
+
+
+## Featured Project: Interactive Weather Dashboard
+
+I created an interactive dashboard using R, flexdashboard, and Plotly to explore historical weather patterns across New York State.
+
+The dashboard includes three interactive visualizations:
+- Monthly maximum and minimum temperature trends
+- Average daily precipitation by month
+- The relationship between maximum and minimum temperatures
+
+**Tools:** R, tidyverse, flexdashboard, Plotly
+
+<a href="dashboard.html"
+   class="btn btn-primary"
+   role="button">
+   View Interactive Dashboard
+</a>
+
