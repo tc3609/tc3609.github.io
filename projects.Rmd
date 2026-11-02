@@ -3,11 +3,7 @@
 title: "Projects"
 ---
 
-# Data Science Projects
-
 A collection of projects completed as part of my Data Science coursework at Columbia University. These projects demonstrate my experience in data cleaning, transformation, exploratory data analysis, and visualization using R.
-
----
 
 ## Exploratory Data Analysis & Visualization
 
@@ -17,7 +13,6 @@ Explored the Palmer Penguins dataset using descriptive statistics and scatterplo
 
 [View GitHub Repository](https://github.com/tc3609/p8105_hw1_tc3609)
 
----
 
 ## Data Cleaning, Integration & Analysis
 
@@ -27,7 +22,6 @@ Cleaned and integrated multiple environmental datasets from the Trash Wheel proj
 
 [View GitHub Repository](https://github.com/tc3609/p8105_hw2_tc3609)
 
----
 
 ## Weather & Urban Mobility Data Analysis
 

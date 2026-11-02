@@ -1,4 +1,3 @@
-
 ---
 title: "Resume"
 ---
@@ -6,6 +5,7 @@ title: "Resume"
 ## Education
 
 ### Columbia University
+
 **M.S. in Biostatistics | September 2026 – June 2028**
 
 Mailman School of Public Health
@@ -13,11 +13,10 @@ Mailman School of Public Health
 Relevant Coursework: Data Science, Biostatistical Methods, Probability, Principles of Epidemiology
 
 ### University of California, Davis
+
 **B.A. in Cognitive Science**
 
 Relevant Coursework: Artificial Intelligence, Computational Linguistics, Data Structures, Algorithm Design & Analysis, Cognitive Neuroscience
-
----
 
 ## Professional & Research Experience
 
@@ -68,3 +67,4 @@ Relevant Coursework: Artificial Intelligence, Computational Linguistics, Data St
 - **Visualization & Design:** Tableau, Matplotlib, Figma, Microsoft Excel (Pivot Tables, VBA)
 - **Web & Cloud:** HTML, CSS, JavaScript, Vue3, AWS (EC2, S3, DynamoDB), PgAdmin
 - **Soft Skills:** Presentation, Teamwork, Communication, Working with Children, Project Management
+

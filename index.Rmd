@@ -1,9 +1,8 @@
 
 ---
-title: "Home"
+title: "Hi, I'm Joanna!"
 ---
 
-# Hi, I'm Joanna!
 
 I'm Tzu-I (Joanna) Chuang, currently pursuing a Master of Science in Biostatistics at Columbia University's Mailman School of Public Health.
 
@@ -26,20 +25,23 @@ I'm particularly interested in opportunities involving data analytics, data scie
 Feel free to explore my resume or connect with me through GitHub and LinkedIn!
 
 
+
 ## Featured Project: Interactive Weather Dashboard
 
 I created an interactive dashboard using R, flexdashboard, and Plotly to explore historical weather patterns across New York State.
 
 The dashboard includes three interactive visualizations:
-- Monthly maximum and minimum temperature trends
-- Average daily precipitation by month
-- The relationship between maximum and minimum temperatures
+
+<ul>
+  <li>Monthly maximum and minimum temperature trends</li>
+  <li>Average daily precipitation by month</li>
+  <li>The relationship between maximum and minimum temperatures</li>
+</ul>
 
 **Tools:** R, tidyverse, flexdashboard, Plotly
 
-<a href="dashboard.html"
-   class="btn btn-primary"
-   role="button">
-   View Interactive Dashboard
+<a href="dashboard.html" class="btn btn-primary" role="button">
+  View Interactive Dashboard
 </a>
+
 
