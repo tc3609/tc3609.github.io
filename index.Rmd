@@ -3,7 +3,6 @@
 title: "Hi, I'm Joanna!"
 ---
 
-
 I'm Tzu-I (Joanna) Chuang, currently pursuing a Master of Science in Biostatistics at Columbia University's Mailman School of Public Health.
 
 I graduated from the University of California, Davis, with a Bachelor's degree in Cognitive Science, specializing in the programming track.
